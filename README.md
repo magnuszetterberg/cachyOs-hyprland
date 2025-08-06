@@ -31,7 +31,7 @@ My personal Hyprland desktop environment setup for CachyOS.
 
 1. Clone this repository:
    ```bash
-   git clone <your-repo-url> ~/github/cachyOs-hyprland
+   git clone https://github.com/magnuszetterberg/cachyOs-hyprland.git ~/github/cachyOs-hyprland
    ```
 
 2. Backup your existing configs (if any):
