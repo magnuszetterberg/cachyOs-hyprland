@@ -74,10 +74,16 @@ My personal Hyprland desktop environment setup for CachyOS.
 
 ## Usage
 
-- **Super + Enter**: Open terminal (Alacritty)
-- **Super + D**: Open application launcher (Wofi)
-- **Super + Q**: Close focused window
-- **Print**: Take screenshot
+- **Super + Q**: Open terminal (Alacritty)
+- **Super + Return**: Open application launcher (Wofi)
+- **Super + C**: Close focused window
+- **Super + Shift + S**: Take screenshot (selection)
+- **Super + E**: Open file manager (Nautilus)
+- **Super + B**: Open browser (Firefox)
+- **Super + L**: Lock screen (Swaylock)
+- **Super + V**: Toggle floating mode
+- **Super + R**: Enter resize mode
+- **Super + 1-9**: Switch to workspace 1-9
 - **Bluetooth icon**: Left-click to toggle, right-click for manager
 
 Restart Hyprland or reboot to apply all changes.
