@@ -19,13 +19,13 @@
         //"custom/rofi",
         "hyprland/workspaces",
         //"hyprland/submap",
-        "temperature",
+        //"temperature",
         "custom/idle_inhibit_status",
         //"mpd"
         "custom/spotify"
     ],
     "modules-center": [
-        //"hyprland/window"
+        //"hyprland/window",
         "clock#date",
         "custom/weather"
         //"custom/gammastep"
@@ -40,9 +40,9 @@
         "pulseaudio",
         //"wireplumber",
         //"custom/screenshot_t",
-        "tray",
+        "tray"
         //"network",
-        "custom/power"
+        //"custom/power"
     ],
 
 
