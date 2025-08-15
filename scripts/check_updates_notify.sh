@@ -11,5 +11,9 @@ if [ "$UPDATES" -gt 0 ]; then
         -i system-software-update \
         -c "im.portable.package" \
         "\U1F4E2 $UPDATES updates available" \
-        "Update command copied! Just paste in your terminal."
+        "Paste in your terminal to update."
+    sleep 0.5
+    notify-send -u low -a "System Update" \
+        -i edit-paste \
+        "Update command is now in your clipboard!"
 fi
