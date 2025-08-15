@@ -10,9 +10,9 @@ if [ "$UPDATES" -gt 0 ]; then
     notify-send -u normal -a "System Update" \
         -i system-software-update \
         -c "im.portable.package" \
-        "\U1F4E2 $UPDATES updates available" \
+        " 🔔 $UPDATES updates available" \
         "Paste in your terminal to update."
-    sleep 0.5
+    sleep 1
     notify-send -u low -a "System Update" \
         -i edit-paste \
         "Update command is now in your clipboard!"
