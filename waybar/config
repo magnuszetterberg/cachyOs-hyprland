@@ -355,8 +355,8 @@
             "car": "",
             "default": ["", "", ""]
         },
-        "on-click": "pavucontrol",
-        "on-click-right": "amixer sset Master toggle"
+        "on-click": "~/.config/waybar/cycle_sink.sh",
+        "on-click-right": "pavucontrol"
     },
 
     "wireplumber": {
