@@ -61,7 +61,7 @@ My personal Hyprland desktop environment setup for CachyOS.
 
 5. Install required packages:
    ```bash
-   sudo pacman -S hyprland waybar alacritty fish wofi wlogout mako swaylock blueman network-manager-apple
+   sudo pacman -S hyprland waybar alacritty fish wofi wlogout mako swaylock blueman network-manager-applet
    ```
 
 ## Features
