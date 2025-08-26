@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Cronjob added: $CRON_LINE"
 # Adds a daily cronjob to check for important updates and notify the user
-CRON_LINE="0 10 * * * $HOME/github/cachyOs-hyprland/scripts/check_updates_notify.sh"
+CRON_LINE="0 */4 * * * $HOME/github/cachyOs-hyprland/scripts/check_updates_notify.sh"
 
 # Check if crontab is available, if not, install cronie
 if ! command -v crontab >/dev/null 2>&1; then

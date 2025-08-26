@@ -20,7 +20,7 @@
         "hyprland/workspaces",
         //"hyprland/submap",
         //"temperature",
-        "custom/idle_inhibit_status",
+        "custom/audio_idle_inhibitor",
         //"mpd"
         "custom/spotify"
     ],
@@ -171,12 +171,17 @@
         "on-scroll-down": "brightnessctl s 5%-",
         "on-scroll-up": "brightnessctl s +5%"
     },
-    "custom/idle_inhibit_status": {
-        "interval": 5,
+    "custom/audio_idle_inhibitor": {
+        "format": "{icon}",
+        "exec": "sway-audio-idle-inhibit --dry-print-both-waybar",
+        "exec-if": "which sway-audio-idle-inhibit",
         "return-type": "json",
-        "exec": "~/.config/waybar/modules/idle_inhibit_status.sh",
-        "tooltip": true,
-        "on-click": "pkill -f 'swayidle -w timeout 9999999' || ~/.config/hypr/scripts/audio_idle_inhibit.sh &"
+        "format-icons": {
+            "output": " ",
+            "input": " ",
+            "output-input": "  ",
+            "none": ""
+        }
     },
     "custom/weather": {
         "format": "{}",
