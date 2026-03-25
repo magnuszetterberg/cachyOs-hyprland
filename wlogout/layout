@@ -1,6 +1,6 @@
 {
     "label" : "lock",
-    "action" : "swaylock",
+    "action" : "hyprlock -c ~/.config/hypr/config/hyprlock.conf",
     "text" : "Lock",
     "keybind" : "l"
 }
